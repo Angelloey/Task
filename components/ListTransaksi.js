@@ -1,10 +1,6 @@
-import React from 'react'
+import React from "react";
 
-const Listtransaksi =() => {
-    return (
-        <div>
-            List Transaksi
-        </div>
-    )
-}
-export default Listtransaksi
+const Listtransaksi = () => {
+  return <div>List Transaksi</div>;
+};
+export default Listtransaksi;

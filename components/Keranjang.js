@@ -1,10 +1,6 @@
-import React from 'react'
+import React from "react";
 
-const Keranjang =() => {
-    return (
-        <div>
-            Keranjang
-        </div>
-    )
-}
-export default Keranjang
+const Keranjang = () => {
+  return <div>Keranjang</div>;
+};
+export default Keranjang;
