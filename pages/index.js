@@ -6,10 +6,6 @@ import Head from 'next/head'
 import Nav from '../components/Nav'
 import React from 'react'
 import Carousel from '../components/Carousel'
-<<<<<<< HEAD
-=======
-import StyleNav from '../components/Nav'
->>>>>>> 88dbc91 (Static Component Updated)
 
 const Index = () => {
   const dispatch = useDispatch()
@@ -26,21 +22,15 @@ const Index = () => {
       <div>
         <Head>
           <title>
-            Task1
+            Static Component
           </title>
           <link 
             rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
           </link>
         </Head>
-<<<<<<< HEAD
-        <Link href="Navbar">
-            <Nav>Nav</Nav>
-        </Link>
-=======
         <div> 
-          <StyleNav>StyleNav</StyleNav>
+          <Nav>Nav</Nav>
         </div>
->>>>>>> 88dbc91 (Static Component Updated)
         <Link href="Navbar">
             <Carousel>Carousel</Carousel>
         </Link>
